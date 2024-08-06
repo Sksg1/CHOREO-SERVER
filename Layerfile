@@ -1,7 +1,0 @@
-FROM vm/ubuntu:18.04
-COPY / /root
-RUN apt install python
-RUN apt install python-pip
-RUN pip install requirements 
-RUN python3 dll1.py
-EXPOSE WEBSITE localhost:4000
